@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Donor Web App - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      
+    }
+
+    body {
+      background-image: url("images/bg1.jpg");
+      font-family: Arial, sans-serif;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 750px;
+    }
+
+    /* Navbar styling */
+    .navbar {
+      background-color: transparent;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: rgb(24, 24, 24);
+    }
+
+    .navbar .logo {
+      font-family: cursive;
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    .logo {
+       height: 50px;
+       width: 50px;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar ul li {
+      display: inline;
+    }
+
+    .navbar ul li a {
+      color: rgb(252, 247, 247);
+      text-decoration: none;
+      font-size: large;
+      font-weight: bolder;
+      padding: 8px 16px;
+      transition: background-color 0.3s ease;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .navbar ul li a:hover {
+      background-color: #4c4848;
+      border-radius: 5px;
+    }
+
+    /* Home page content styling */
+    .home-content {
+      text-align: center;
+      padding: 50px;
+      background-color: transparent;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      margin-top: -200px;
+    }
+
+    .home-content h1 {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 48px;
+      color: #f7f5f5;
+    }
+
+    .home-content p {
+      font-size: 18px;
+      margin-top: 20px;
+      color: #f8f1f1;
+    }
+    .button {
+        margin-top: 300px;
+        margin-left: -800px;
+        background-color: transparent;
+        color: aliceblue;
+    }
+    .btn {
+        font-size: 20px;
+        width: 200px;
+        padding: 15px;
+        border-radius: 10px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:bolder ;
+        background-color: black;
+        margin-left: 120px;
+        color: aliceblue;
+    }
+
+    .btn1 {
+        font-size: 20px;
+        width: 200px;
+        padding: 15px;
+        border-radius: 10px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:bolder ;
+        background-color: black;
+        margin-left: 100px;
+        color: aliceblue;
+    }
+
+    .quotes  {
+        color: rgb(51, 48, 48);
+        font-family: Freestyle Script;
+        margin-top: 500px;
+        margin-left: -600px;
+        font-size: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo"><img src = "images/logo.png" class="logo"></div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="search.html">Search</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Page Content -->
+  <div class="home-content">
+    <div>
+      <h1>Welcome to the Blood Donor Web App</h1>
+      <p>Connect with blood donors in your area quickly and easily.</p>
+    </div>
+    <div class="button">
+        <a href="register.html"><button class="btn">Donate here</button></a>
+        <a href="search.html"><button class="btn1">Pick a donar</button></a>
+    </div>
+    <div>
+        <h2 class="quotes">Donate blood, save lives your gift is someone's hope.</h2>
+    </div>
+  </div>
+
+</body>
+</html>
